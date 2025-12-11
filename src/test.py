@@ -1,3 +1,3 @@
-from main import Calculadora
+from app import Calculadora
 def test_sums_2_numeros():
-    assret Calculadora().suma(2,2) == 4 
+    assert Calculadora().sum(2,2) == 4 
